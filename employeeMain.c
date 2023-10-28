@@ -107,10 +107,10 @@ matchPtr = searchEmployeeByPhone(EmployeeTable, EmployeeTableEntries, "213-555-1
 
 //Example not found 
 
-if (matchPtr != NULL) 
+if (matchPtr != NULL) {
 
         printf("Employee Salary 1045 is in record %d\n", matchPtr - EmployeeTable); 
-
+}
     else 
 
     printf("Employee Salary is NOT found in the record\n"); 
@@ -130,6 +130,15 @@ if (matchPtr != NULL)
     else 
 
     printf("Employee Salary is NOT found in the record\n"); 
+
+
+
+
+
+
+
+
+
      
 return EXIT_SUCCESS;
 }
